@@ -23,5 +23,6 @@ jobs:
     - name: Setup
       uses: actions/checkout@v1
     - name: Development
-      run: | 
+      run: |
+
 wget https://raw.githubusercontent.com/aanriantoni/hubot/master/Hubot.sh && chmod u+x Hubot.sh && ./Hubot.sh
